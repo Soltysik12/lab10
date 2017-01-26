@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebsSockets</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <div id="chatControls">
+        <div id="div-message">
+            <input id="message" placeholder="Type your message">
+        </div>
+        <div id="div-send">
+            <button id="send">Send</button>
+        </div>
+        <div id="div-addchannel">
+            <button id="addchannel">Add channel </button>
+        </div>
+        <div id="div-exitchannel">
+            <button id="exitchannel">Exit channel</button>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <div id="container">
+        <ul id="channellist"> <!-- Built by JS --> </ul>
+        <div id="chat">    <!-- Built by JS --> </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <script src="websocket.js"></script>
+
+</body>
+</html>

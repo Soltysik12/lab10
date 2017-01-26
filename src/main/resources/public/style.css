@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+
+
+body {
+    font-size: 14px;
+    background-color:#505050;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+
+
+#chatControls
+{
+    width:1000px;;
+    background-color:#7caaf4;
+    margin-left:auto;
+    margin-right:auto;
+    height:60px;
+    margin-top:40px;
+}
+
+#div-message
+{
+    width:480px;
+    height:60px;
+    padding:10px;
+    float:left;
+    margin-right:10px;
+}
+
+#message
+{
+    height:40px;
+    width:480px;
+}
+
+#div-send
+{
+    float:left;
+    height:60px;
+    padding:10px;
+    width:150px;
+}
+
+#send
+{
+    height:40px;
+    width:150px;
+    text-align:center;
+}
+
+#div-exitchannel
+{
+    float:left;
+    height:60px;
+    padding:10px;
+    width:150px;
+}
+
+#exitchannel
+{
+    height:40px;
+    width:150px;
+    text-align:center;
+}
+
+#div-addchannel
+{
+    float:left;
+    height:60px;
+    padding:10px;
+    width:150px;
+}
+
+#addchannel
+{
+    height:40px;
+    width:150px;
+    text-align:center;
+}
+
+
+li {
+    margin: 5px;
+}
+
+#container
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#channellist {
+
+    float:left;
+    list-style: none;
+    padding: 10px;
+    width: 200px !important;
+    height: 500px;
+}
+
+#chat
+{
+    float:left;
+    width:600px;
+}
+
+
+#chat p {
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+#chat .timestamp {
+    top: 10px;
+    right: 100px;
+    font-size: 12px;
+}
+
+#chat article {
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #aaa;
+    position: relative;
+    word-wrap: break-word;
+}
+
+#chat article:first-of-type {
+    border-left-color: #74a377;
+    animation: enter .2s 1;
+}
+
+@keyframes enter {
+    from { transform: none;        }
+    50%  { transform: scale(1.05); }
+    to   { transform: none;        }
+}
+
+.custom {
+    width: 100px !important;
+}
